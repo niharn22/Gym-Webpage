@@ -1,0 +1,91 @@
+/*CSS Reset*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('./images/background-img.jpg');
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    top: 20px;
+}
+.mid{
+    display: block;
+    width: 55%;
+    margin: 29px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    height: 75px;
+    width: 136px;
+}
+.left div{
+    text-align: center;
+}
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+.container{
+    margin: 15px 80px;
+    padding: 75px;
+    width: 33%;
+}
+.form-group input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: block;
+    width: 90%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.container h1{
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
